@@ -292,11 +292,11 @@ ol {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  text-underline-offset: 3px;
 }
 
 .content__video-card:hover {
   text-decoration: underline;
-  text-underline-offset: 3px;
 }
 
 .content__video-card:active {
@@ -310,20 +310,23 @@ ol {
 
 .content__video-card-description {
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
   line-height: 16.2px;
   font-weight: 400;
   letter-spacing: 0%;
-  max-width: 180px;
+  max-width: 98%;
 }
 
 .content__video-card-description-container {
   flex-grow: 1;
   margin-left: 2px;
 }
+
+
+
 
 .content__video-card-thumbnail {
   max-height: 103px;
